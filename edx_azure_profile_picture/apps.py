@@ -1,5 +1,5 @@
 """
-App configuration for edx_get_profile_picture_from_ms.
+App configuration for edx_azure_profile_picture.
 """
 
 from __future__ import unicode_literals
@@ -9,10 +9,10 @@ from django.apps import AppConfig
 
 class CustomPluginConfig(AppConfig):
     """
-    edx_get_profile_picture_from_ms configuration.
+    edx_azure_profile_picture configuration.
     """
-    name = 'edx_get_profile_picture_from_ms'
-    verbose_name = 'edx_get_profile_picture_from_ms'
+    name = 'edx_azure_profile_picture'
+    verbose_name = 'edx_azure_profile_picture'
 
     plugin_app = {
         'settings_config': {

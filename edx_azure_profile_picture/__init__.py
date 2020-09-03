@@ -1,5 +1,5 @@
 """
-Init module for edx_get_profile_picture_from_ms.
+Init module for edx_azure_profile_picture.
 """
 
 from __future__ import unicode_literals

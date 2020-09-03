@@ -1,5 +1,5 @@
 """
-Setup file for edx_get_profile_picture_from_ms Django plugin.
+Setup file for edx_azure_profile_picture Django plugin.
 """
 
 from __future__ import print_function
@@ -56,23 +56,23 @@ def get_version(*file_paths):
     raise RuntimeError('Unable to find version string.')
 
 
-VERSION = get_version('edx_get_profile_picture_from_ms', '__init__.py')
+VERSION = get_version('edx_azure_profile_picture', '__init__.py')
 
 setup(
     name='edx-get-profile-picture-from-ms',
     version=VERSION,
-    description='edx_get_profile_picture_from_ms',
+    description='edx_azure_profile_picture',
     author='eduNEXT',
     author_email='contact@edunext.co',
     packages=[
-        'edx_get_profile_picture_from_ms',
+        'edx_azure_profile_picture',
     ],
     include_package_data=True,
     install_requires=load_requirements('requirements/base.in'),
     zip_safe=False,
     entry_points={
         "lms.djangoapp": [
-            'edx_get_profile_picture_from_ms = edx_get_profile_picture_from_ms.apps:CustomPluginConfig',
+            'edx_azure_profile_picture = edx_azure_profile_picture.apps:CustomPluginConfig',
         ],
     },
 )

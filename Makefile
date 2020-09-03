@@ -1,6 +1,6 @@
 ###############################################
 #
-# edx_get_profile_picture_from_ms commands.
+# edx_azure_profile_picture commands.
 #
 ###############################################
 
@@ -24,5 +24,5 @@ upgrade: ## update the requirements/*.txt files with the latest packages satisfy
 	pip-compile -U --output-file requirements/base.txt requirements/base.in
 
 quality: clean ## check coding style with pycodestyle and pylint
-	pycodestyle ./edx_get_profile_picture_from_ms
-	pylint ./edx_get_profile_picture_from_ms --rcfile=./setup.cfg
+	pycodestyle ./edx_azure_profile_picture
+	pylint ./edx_azure_profile_picture --rcfile=./setup.cfg

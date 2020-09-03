@@ -2,4 +2,4 @@ include CHANGELOG.rst
 include LICENSE.txt
 include README.md
 include requirements/base.in
-recursive-include edx_get_profile_picture_from_ms *.html *.png *.gif *js *.css *jpg *jpeg *svg *py
+recursive-include edx_azure_profile_picture *.html *.png *.gif *js *.css *jpg *jpeg *svg *py
