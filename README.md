@@ -10,7 +10,7 @@
 
 - Clone this repo in the src folder of your devstack.
 - Open a new Lms/Devstack shell.
-- Install the plugin as follows: pip install -e git+https://github.com/thinhvo-groove/edx-get-profile-picture-from-ms-plugin#egg=edx_azure_profile_picture_plugin
+- Install the plugin as follows: pip install -e git+https://github.com/thinhvo-groove/edx-azure-profile-picture-plugin#egg=edx_azure_profile_picture_plugin
 - Add edx_azure_profile_picture to the list of social auth pipline
 
 ```

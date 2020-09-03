@@ -59,7 +59,7 @@ def get_version(*file_paths):
 VERSION = get_version('edx_azure_profile_picture', '__init__.py')
 
 setup(
-    name='edx-get-profile-picture-from-ms',
+    name='edx-azure-profile-picture',
     version=VERSION,
     description='edx_azure_profile_picture',
     author='eduNEXT',
